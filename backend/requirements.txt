@@ -7,3 +7,10 @@ passlib[bcrypt]
 pydantic-settings
 python-multipart
 email-validator
+fastapi
+uvicorn
+sqlalchemy
+pymysql
+passlib[bcrypt]
+python-dotenv
+python-multipart
