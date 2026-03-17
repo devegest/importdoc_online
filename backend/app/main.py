@@ -1,6 +1,9 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.api.routes import auth, empresas, profissionais, documentos, auditoria
+from app.api.routes import auth
+
+app.include_router(auth.router)
 
 app = FastAPI(title="ImportDoc API", version="1.0.0")
 
